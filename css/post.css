@@ -1,0 +1,41 @@
+.back-link {
+    color: #F2BC1B;
+}
+
+.post {
+    padding: 1em;
+}
+
+.post h1 {
+    font-size: 3em;
+    font-weight: 200;
+    color: #F25F29
+}
+
+.post h2 {
+    font-size: 2em;
+    font-weight: 200;
+    color: #027373;
+}
+
+.post h3 {
+    font-size: 1.5em;
+    font-weight: 200;
+    color: #F2BC1B;
+}
+
+.post p{
+    font-size: 1.25em;
+    line-height: 1.5em;
+    text-align: justify;
+    font-weight: 200;
+}
+
+.post img {
+    width: 100%;
+}
+
+.post-meta p {
+    line-height: 0.5em;
+    font-size: 1em;
+}

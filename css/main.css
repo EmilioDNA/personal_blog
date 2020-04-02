@@ -1,0 +1,127 @@
+@import 'header.css';
+@import 'jumbotron.css';
+@import 'footer.css';
+@import 'post.css';
+
+body {
+    background-color: #fff;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+a:hover {
+    opacity: 0.7;
+}
+
+#main-container {
+    display: grid;
+    width: 100%;
+    height: 200vw;
+    grid-template-rows: 15em 15em 4fr 5em;
+    grid-gap: 0.25em;
+}
+
+
+.blog-post-list {
+    display: grid;
+    grid-template-columns: 1fr ;
+}
+
+.card {
+    height: 550px;
+    margin: 0.5em;
+    border-bottom: 0.5em solid #F2BC1B;
+}
+
+.card img {
+    width: 100%;
+    max-height: 300px;
+}
+
+.card-body {
+    height: 400px;
+    padding: 0.5em;
+}
+
+.card-body h2 {
+    font-size: 1.25em;
+    font-weight: normal;
+    color: #F25F29;
+}
+
+.card-body .article-info {
+    font-size: 0.80em;
+}
+
+.card-body .article-content {
+    font-size: 1em;
+}
+
+.card-button {
+    border: none;
+    font-size: 1em;
+    background-color:  #027373;
+    padding: 0.5em 2em;
+}
+
+.card-button a {
+    color: #ffffff;
+}   
+
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { 
+    .blog-post-list {
+        display: grid;
+        grid-template-columns:  1fr 1fr ;
+    }
+
+    .card {
+        height: 450px;        
+    }
+
+    .card img {
+        max-height: 300px;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    #main-container {
+        display: grid;
+        width: 100%;
+        height: 200vw;
+        grid-template-rows: 10em 25em 4fr 5em;
+        grid-gap: 0.5em;
+    }
+    .flex-nav {
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row;
+        align-content: center;
+        margin-top: 2em;
+    }
+    .card {
+        height: 500px;
+    }
+    
+ }
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    .blog-post-list {
+        display: grid;
+        grid-template-columns:  1fr 1fr 1fr ;
+    
+    }
+    .card {
+        height: 450px;
+    }
+
+    .card img {
+        max-height: 250px;
+    }
+ }
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {  }

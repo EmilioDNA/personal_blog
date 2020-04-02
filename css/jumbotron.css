@@ -1,0 +1,18 @@
+#jumbotron {
+    position: relative;
+    width: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100% ;
+    border-bottom: 0.5em solid #027373;
+    margin-bottom: 1.5em;
+}
+
+.jumbotron-main-img {
+    background-image: url("../img/jumbotron.jpg");
+}
+
+
+.jumbotron-post-img {
+    background-image: url("../img/thumbnail.jpg");
+}
