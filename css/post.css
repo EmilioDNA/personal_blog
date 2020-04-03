@@ -39,3 +39,7 @@
     line-height: 0.5em;
     font-size: 1em;
 }
+
+figure {
+    margin:0;
+}
